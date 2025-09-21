@@ -11,7 +11,7 @@
 }
 
 .btn--filled {
-    background-color: lightcoral;
+    background-color: lightskyblue;
     color: #242424;
     border: 1px solid var(--primary-dark)
 }

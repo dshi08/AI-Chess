@@ -8,7 +8,7 @@
   }
   
 .hero-container {
-    background: url("/public/images/ai-gen-hero.webp" ) center center/cover
+    background: url("/public/images/chess.jpeg" ) center center/cover
     no-repeat;
     height: 100vh;
     width: 100%;
@@ -33,9 +33,9 @@
 }
 
 .hero-content > p {
-    margin-top: 8px;
+    margin-top: 1px;
     color: whitesmoke;
-    font-size: 28px;
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
 }
@@ -54,26 +54,7 @@
 }
 
 .python {
-    height: 50px;
-}
-.gpt {
-    height: 43px;
-    margin-top: 5px;
-}
-.deepseek {
-    height: 53px;
-    margin-top: -3px;
-}
-.gemini {
-    height: 45px;
-    margin-top: -3px;
-}
-.pytorch {
-    height: 50px;
-}
-  
-.hero-btns {
-    margin-top: 32px;
+    height: 100px;
 }
 
 @media screen and (max-width: 960px) {
@@ -89,8 +70,8 @@
 
 @media screen and (max-width: 768px) {
     .hero-content > h1 {
-        font-size: 73px;
-        margin-top: -100px;
+        font-size: 90px;
+        margin-top: -50px;
     }
     .hero-content > p {
         font-size: 23px;
@@ -101,26 +82,6 @@
     }
 
     .python {
-        height: 40px;
-    }
-    .gpt {
-        height: 33px;
-        margin-top: 5px;
-    }
-    .deepseek {
-        height: 43px;
-        margin-top: -3px;
-    }
-    .gemini {
-        height: 35px;
-        margin-top: -3px;
-    }
-    .pytorch {
-        height: 40px;
-    }
-    
-    .btn {
-        font-size: 25px;
-        width: 100%;
+        height: 60px;
     }
 }

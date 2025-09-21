@@ -54,7 +54,7 @@ function NavBar() {
                     alt="Logo Poster"
                     />
                     <video 
-                    src='/videos/trimmed.mov' 
+                    src='/images/logo.mov' 
                     className="navbar-video"
                     poster="/images/first-frame.png"
                     loop 
@@ -63,7 +63,7 @@ function NavBar() {
                     ref={videoRef}
                     />
                 </div>
-                AHSMLC 
+                AICHESS 
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -71,17 +71,17 @@ function NavBar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
                     <Link to='/projects' className='nav-links' onClick={(closeMobileMenu)}>
-                        Projects
+                        Courses
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/calendar' className='nav-links' onClick={(closeMobileMenu)}>
-                        Calendar
+                        Teachers
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/resources' className='nav-links' onClick={(closeMobileMenu)}>
-                        Resources
+                        Contact
                     </Link>
                 </li>
                 <li className='nav-item'>
