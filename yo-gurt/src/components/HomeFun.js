@@ -13,75 +13,54 @@ function HomeFun() {
                 <ul className='cards__items'>
                     <CardItem
                     src='/images/banana.png' 
-                    label='Club President'
-                    text="I'm David, a senior at AHS. My favorite past times include doomscrolling and bedrotting! "
+                    label='Arjun Nair'
+                    text=""
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
                     <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Vice President'
-                    text='SEEKING VP'
-                    path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
-                    />
-                    <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Vice President'
-                    text='SEEKING VP'
+                    src='/images/banana.png' 
+                    label='Victor Fang'
+                    text=''
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
                 </ul>
-                
                 <ul className='cards__items'>
                     <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Vice President'
-                    text='SEEKING VP'
+                    src='/images/banana.png' 
+                    label='Ethan Fang'
+                    text=""
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
                     <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Social Media Manager'
-                    text='SEEKING SOCIAL MEDIA MANAGER'
-                    path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
-                    />
-                    <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Vice President'
-                    text='SEEKING VP'
-                    path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
-                    />
-                    <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Vice President'
-                    text='SEEKING VP'
+                    src='/images/banana.png'
+                    label='Raymond Xu'
+                    text=''
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
                 </ul>
             </div>
         </div>
-        <h2> Department head </h2>
+        <h2> Department Heads </h2>
         <div className='cards__container'>
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem
                     src='/images/banana.png' 
-                    label='Club President'
-                    text="I'm David, a senior at AHS. My favorite past times include doomscrolling and bedrotting! "
-                    path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
-                    />
-                </ul>
-                <ul className='cards__items'>
-                    <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Vice President'
-                    text='SEEKING VP'
+                    label='Ethan Zhou'
+                    text=""
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
                     <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Social Media Manager'
-                    text='SEEKING SOCIAL MEDIA MANAGER'
+                    src= '/images/banana.png' 
+                    label= 'Dylan Ho'
+                    text= ""
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
+                    />
+                    <CardItem
+                    src= '/images/banana.png' 
+                    label= 'Ben Y'
+                    text= ""
+                    path= 'https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
                 </ul>
             </div>
@@ -92,30 +71,14 @@ function HomeFun() {
                 <ul className='cards__items'>
                     <CardItem
                     src='/images/banana.png' 
-                    label='Club President'
-                    text="I'm David, a senior at AHS. My favorite past times include doomscrolling and bedrotting! "
+                    label='Chris Wu'
+                    text=""
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
-                </ul>
-                <ul className='cards__items'>
                     <CardItem
                     src='/images/banana.png' 
-                    label='Club President'
-                    text="I'm David, a senior at AHS. My favorite past times include doomscrolling and bedrotting! "
-                    path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
-                    />
-                </ul>
-                <ul className='cards__items'>
-                    <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Vice President'
-                    text='SEEKING VP'
-                    path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
-                    />
-                    <CardItem
-                    src='/videos/trimmed.gif' 
-                    label='Social Media Manager'
-                    text='SEEKING SOCIAL MEDIA MANAGER'
+                    label='Shouri Mosiliganti'
+                    text=""
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
                 </ul>
