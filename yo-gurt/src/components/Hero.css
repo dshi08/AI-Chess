@@ -8,7 +8,7 @@
   }
   
 .hero-container {
-    background: url("/public/images/chess.jpeg" ) center center/cover
+    background: url("/public/images/chess_heros.jpeg" ) center center/cover
     no-repeat;
     height: 100vh;
     width: 100%;
@@ -55,6 +55,7 @@
 
 .python {
     height: 100px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 960px) {

@@ -69,7 +69,7 @@ function NavBar() {
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <li className='nav-item'>
+                {/* <li className='nav-item'>
                     <Link to='/projects' className='nav-links' onClick={(closeMobileMenu)}>
                         Courses
                     </Link>
@@ -78,7 +78,7 @@ function NavBar() {
                     <Link to='/calendar' className='nav-links' onClick={(closeMobileMenu)}>
                         Teachers
                     </Link>
-                </li>
+                </li> */}
                 <li className='nav-item'>
                     <Link to='/resources' className='nav-links' onClick={(closeMobileMenu)}>
                         Contact

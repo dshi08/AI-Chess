@@ -1,20 +1,15 @@
 .home-fun-cards {
     padding: 4rem;
-    background: url("/public/images/hero-fun.jpg") center center/cover;
+    background: url("/public/images/team.jpg") center center/cover;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-    font-size: 51px;
-}
 
 h2 {
     color: white;
     font-weight: 600;
     margin-top: 20px;
     text-align: center;
-    font-size: 45px;
+    font-size: 60px;
 }
 
 .cards__button-wrapper {
@@ -80,15 +75,23 @@ h2 {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
+    left: 0;
+  
+    width: fit-content;        
+    max-width: 90%;
     margin-left: 10px;
-    padding: 6px 8px;
-    max-width: calc((100%) - 60px);
-    font-size: 12px;
+  
+    padding: 10px;          
+    font-size: 20px;            
     font-weight: 700;
     color: white;
     background-color: #1f98f4;
+    border-radius: 5px;
     box-sizing: border-box;
-}
+  }
+  
+  
+
 
 .cards__item__img {
     position: absolute;
