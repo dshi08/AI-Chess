@@ -10,15 +10,22 @@ function NavBar() {
     const closeMobileMenu = () => setClick(false);
     const videoRef = useRef(null);
 
+    // Get the current window width for conditional checks
+    const getWindowWidth = () => window.innerWidth;
+    const isMobile = () => getWindowWidth() <= 960;
+
     const handleHoverStart = () => {
-        if (videoRef.current) {
+        // 🛑 FIX: Only run video logic if NOT mobile
+        if (!isMobile() && videoRef.current) {
             videoRef.current.classList.add('show');
-            videoRef.current.play().catch(e => console.log("Video error:", e));
+            // Using a try/catch block for play() is good practice
+            videoRef.current.play().catch(e => console.log("Video play error:", e));
         }
     };
     
     const handleHoverEnd = () => {
-        if (videoRef.current) {
+        // 🛑 FIX: Only run video logic if NOT mobile
+        if (!isMobile() && videoRef.current) {
             videoRef.current.classList.remove('show');
             videoRef.current.pause();
             videoRef.current.currentTime = 0;
@@ -26,7 +33,7 @@ function NavBar() {
     };
 
     const showButton = () => {
-        if(window.innerWidth <= 960) {
+        if(getWindowWidth() <= 960) {
             setButton(false)
         } else {
             setButton(true);
@@ -45,6 +52,7 @@ function NavBar() {
             to='/' 
             className="navbar-logo" 
             onClick={closeMobileMenu}
+            // 🛑 FIX: Use handlers that contain the mobile check
             onMouseEnter={handleHoverStart}
             onMouseLeave={handleHoverEnd}>
                 <div className="logo-media-wrapper">
@@ -53,6 +61,7 @@ function NavBar() {
                     className="navbar-poster"
                     alt="Logo Poster"
                     />
+                    {/* The video element is only included for desktop behavior */}
                     <video 
                     src='/images/logo.mov' 
                     className="navbar-video"

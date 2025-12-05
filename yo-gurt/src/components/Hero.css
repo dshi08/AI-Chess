@@ -46,16 +46,16 @@
   flex-wrap: wrap;
   gap: 15px;
   margin-top: 10px;
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; -- REMOVED */
 }
 
-.hero-imgs img:hover {
-    transform: scale(1.1);
-}
+/* REMOVED: .hero-imgs img:hover { transform: scale(1.1); } */
 
 .python {
     height: 100px;
     margin-bottom: 20px;
+    /* FIX: Prevents the image from receiving click events */
+    pointer-events: none; 
 }
 
 @media screen and (max-width: 960px) {
@@ -84,5 +84,6 @@
 
     .python {
         height: 60px;
+        /* Ensure pointer-events: none is still active from the main rule */
     }
 }
