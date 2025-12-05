@@ -45,10 +45,10 @@ function HomeFun() {
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem
-                    src= '/images/chess_hero.webp' 
+                    src= '/images/ben.png' 
                     label= 'Ben Y'
-                    text= "TO BE ADDED"
-                    path= 'https://www.youtube.com/watch?v=xPaFQ8ogvto'
+                    text= "Benjamin Yin is a senior at Lexington High School with over a decade of chess experience, having competed in nearly 200 tournaments. His most notable achievements include winning two Ohio State Grade Level Championships and placing third at the 2020 Online Chess National Championship. Outside of chess, Ben enjoys speed typing and participating in competitive math."
+                    path= 'mailto:benyin0828@gmail.com'
                     />
                     <CardItem
                     src='/images/ethanz.jpg' 
@@ -59,8 +59,8 @@ function HomeFun() {
                     <CardItem
                     src= '/images/dylan.png' 
                     label= 'Dylan Ho'
-                    text= "TO BE ADDED"
-                    path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
+                    text= " Dylan Ho is a senior at Andover High School. He is graphic designer social media influencer with more than a thousand followers. He attained thousands of views on posts and collaborated with other influencers. "
+                    path='mailto:dillho1207@gmail.com'
                     />
   
                 </ul>
@@ -73,14 +73,14 @@ function HomeFun() {
                     <CardItem
                     src='/images/chris.jpg' 
                     label='Chris Wu'
-                    text="TO BE ADDED"
-                    path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
+                    text=" Christopher Wu is a senior at Andover High School. He has experience teaching students chess from elementary school students to college students. Chris’s strongest game mode is bullet where he’s rated 2280 on chess.com"
+                    path='chriswuchess@gmail.com'
                     />
                     <CardItem
-                    src='/images/shouri.jpg' 
-                    label='Shouri Mosiliganti'
-                    text="TO BE ADDED"
-                    path='mailto:28stu521@lexingtonma.org'
+                    src='/images/aziz.png' 
+                    label='Aziz Bekanvarov'
+                    text="Aziz has been playing chess for 8+ years. He love teaching kids how to think during a game, spot tactics, and build confidence no matter if they are a beginner, already competing at tournaments or someone who plays chess just to enjoy it. He is really excited to meet new students and wants to enjoy teaching chess to everyone!"
+                    path='mailto:azizbekanvarov2010@gmail.com'
                     />
                 </ul>
             </div>

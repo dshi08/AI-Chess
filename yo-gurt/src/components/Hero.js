@@ -17,7 +17,7 @@ function Hero() {
             <Button className='btns' 
             buttonStyle='btn--filled'
             buttonSize='btn--large'
-            to='https://docs.google.com/forms/d/e/1FAIpQLSeXoTRbhvNvsAfxWUihoT3GBH-37amXsnO7RAGjDSaVUAZFLw/viewform?usp=header'> Join now→ </Button>
+            to='https://docs.google.com/forms/d/e/1FAIpQLSfChffJLyE9IO2ljUqGixPz1cMCDgYAgYtbeMRWQks1Th-yJA/viewform?usp=header'> Sign Up→ </Button>
         </div>
     </div>
   )

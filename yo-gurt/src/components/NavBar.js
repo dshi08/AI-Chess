@@ -98,7 +98,7 @@ function NavBar() {
             <Button 
              buttonStyle='btn--empty'
              buttonSize='btn--large'
-             to='https://docs.google.com/forms/d/e/1FAIpQLSeXoTRbhvNvsAfxWUihoT3GBH-37amXsnO7RAGjDSaVUAZFLw/viewform?usp=header'>
+             to='https://docs.google.com/forms/d/e/1FAIpQLSfChffJLyE9IO2ljUqGixPz1cMCDgYAgYtbeMRWQks1Th-yJA/viewform?usp=header'>
                 Join
             </Button>
             }
