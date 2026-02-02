@@ -41,8 +41,9 @@ function NavBar() {
     };
 
     useEffect(() => {
-        showButton()
-    }, []);
+        // ... your code ...
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+      }, []);
     window.addEventListener('resize', showButton);
   return (
     <>
