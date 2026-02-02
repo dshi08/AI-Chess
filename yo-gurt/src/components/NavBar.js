@@ -95,7 +95,7 @@ function NavBar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSeXoTRbhvNvsAfxWUihoT3GBH-37amXsnO7RAGjDSaVUAZFLw/viewform?usp=header' 
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSfChffJLyE9IO2ljUqGixPz1cMCDgYAgYtbeMRWQks1Th-yJA/viewform?usp=header' 
                     className='nav-links-mobile' 
                     target='_blank'
                     rel='noopener noreferrer'
