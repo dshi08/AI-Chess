@@ -111,7 +111,7 @@ function HomeFun() {
                     })}
                     {renderCard({
                         src:'/images/johnathon.png', 
-                        label:'Jonathon Yu',
+                        label:'Johnathon Yu',
                         text:"Johnathon Yu is a junior at Chelmsford High School. He focuses primarily on creating statewide chess opportunities for students of all levels. He has over 5 years of chess experience, is a skilled and active tournament player with a solid, strategic style, and specializes in analyzing games and teaching fundamentals to help students improve.",
                         path:'mailto:azizbekanvarov2010@gmail.com'
                     })}
